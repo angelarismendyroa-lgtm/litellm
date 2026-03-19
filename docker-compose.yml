@@ -28,7 +28,6 @@ services:
       GEMINI_API_KEY: ${GEMINI_API_KEY}
       GROQ_API_KEY: ${GROQ_API_KEY}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE}
-      ALIBABA_API_KEY: ${ALIBABA_API_KEY}
     depends_on:
       - db
     networks:
